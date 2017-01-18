@@ -1,29 +1,14 @@
 .modal {
-  @extend %flex;
   display: none;
   .image {
-    border-radius: 1em;
     display: block;
-    margin: 0 auto 1em;
+    margin: 0 auto;
+    padding-top: 1em;
   }
-  .write {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  margin: 2em;
-  padding: 1em;
+  .info {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 2em;
+    padding: 1em;
   }
 }
-
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-/* close commented backslash hack */
