@@ -23,8 +23,8 @@ _Objectives_
 
 ## Setup/Installation Requirements
 
-* _Check out the GitHub Pages: https://megankaluza.github.io/fashion-blog/_
-* _Clone this repository https://github.com/megankaluza/https://github.com/megankaluza/fashion-blog.git_
+* _Check out the GitHub Pages: https://megankaluza.github.io/fashion/_
+* _Clone this repository https://github.com/megankaluza/https://github.com/megankaluza/fashion.git_
 * _gem install sass_
 * _gem install bourbon_
 * _gem install neat_
