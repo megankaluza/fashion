@@ -1,0 +1,147 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Anton|Molle:400i');
+// Libraries
+@import "libraries/neat/neat";
+@import "libraries/bourbon/bourbon";
+@import "libraries/saffron/saffron";
+// Sass Components
+@import "base/index";
+
+h2 {
+  @extend %rotate;
+  color: $white;
+  position: relative;
+  top: 700px;
+  font-family: $stack-anton;
+  font-size: 10em;
+}
+
+hr {
+  @extend %opacity;
+  border: 1px solid $lilac;
+}
+
+span {
+  color: $lilac;
+}
+
+.blur  {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+
+.clicked {
+  height: 1000px;
+}
+
+.exit {
+  width: 30px;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.heart {
+  margin-top: 6px;
+  width: 20px;
+}
+
+.post {
+  @extend %text;
+  @extend %centered;
+  display: none;
+}
+
+
+// Columns
+
+.columns {
+  @extend %flex;
+}
+
+.column {
+  @extend %opacity;
+  width: 200px;
+  border: 5px solid $white;
+  background: $lilac;
+  flex: .2;
+}
+
+.mainColumn {
+  flex: 2;
+}
+
+// Gallery
+
+.box {
+  width: 200px;
+  height: 500px;
+  flex-grow: 1;
+}
+
+.gallery {
+  @extend %flex;
+  flex-wrap: wrap;
+}
+
+#imageOne {
+  @extend %image;
+  background-image: url('#{$path-img}/eyes.jpg');
+}
+
+#imageTwo {
+  @extend %image;
+  background-image: url('#{$path-img}/light.jpg');
+}
+
+#imageThree {
+  @extend %image;
+  background-image: url('#{$path-img}/color.jpg');
+}
+
+#imageFour {
+  @extend %image;
+  background-image: url('#{$path-img}/skeleton.png');
+}
+
+#imageFive {
+  @extend %image;
+  // @extend %hover;
+  background-image: url('#{$path-img}/kate.jpg');
+}
+
+#imageSix {
+  @extend %image;
+  background-image: url('#{$path-img}/glasses.jpg');
+}
+
+#imageSeven {
+  @extend %image;
+  background-image: url('#{$path-img}/backpack.jpg');
+}
+
+#imageEight {
+  @extend %image;
+  background-image: url('#{$path-img}/bun.jpg');
+}
+
+#imageNine {
+  @extend %image;
+  background-image: url('#{$path-img}/jeans.jpg');
+}
+
+// Mobile Media Query
+@media only screen
+and (max-width: 1200px)
+and (-webkit-min-device-pixel-ratio: 1) {
+  .column {
+    display: none;
+  }
+}
