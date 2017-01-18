@@ -2418,7 +2418,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   box-sizing: border-box; }
 
-.flex-container, .flex-container ul, .columns, .gallery {
+.modal, .flex-container, .flex-container ul, .columns, .gallery {
   display: flex; }
 
 #header-title, #footer-title, .post {
@@ -2460,8 +2460,34 @@ h2 {
 .modal {
   display: none; }
   .modal .image {
+    border-radius: 1em;
+    display: block;
+    margin: 0 auto 1em; }
+  .modal .write {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 2em;
     padding: 1em; }
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* close commented backslash hack */
 header {
   background-repeat: no-repeat;
   background-size: cover; }
@@ -2546,10 +2572,8 @@ span {
   -o-filter: blur(5px);
   -ms-filter: blur(5px); }
 
-.clicked {
-  height: 1000px; }
-
 .exit {
+  margin-top: 6px;
   width: 30px; }
 
 .grow {
