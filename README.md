@@ -5,13 +5,13 @@
 #### By _**Megan Kaluza**_
 
 # _Inspiration_
-![screenshot](inspiration.png)
+![screenshot](img/inspiration.png)
 
 # _Sketch MockUp_
-![screenshot](screen_shot.png)
+![screenshot](img/screen_shot.png)
 
 # _Live_
-![screenshot](live.png)
+![screenshot](img/live.png)
 
 ## Description
 
