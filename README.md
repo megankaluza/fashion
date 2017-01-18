@@ -30,6 +30,13 @@ _Objectives_
 * _gem install neat_
 * _gem install saffron_
 * _sass --watch ._
+
+* _npm install semantic-ui_
+* _brew install node_
+* _npm install -g gulp_
+* _gulp build_
+* _gulp watch_
+
 * _Open in browser of your choice_
 
 ## Known Bugs
@@ -49,6 +56,8 @@ _No known bugs at this time_
 * _Saffron_
 * _Bourbon_
 * _Neat_
+* _Semantic UI_
+* _Gulp_
 
 ### License
 
