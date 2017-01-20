@@ -6,19 +6,20 @@
     padding-top: 1em;
   }
   .info {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
     margin: 2em;
     padding: 1em;
   }
 }
 
 .ui.modal {
-  width: 500px;
   background: $lavenderGray;
+  border: 2px solid $black;
+  width: 500px;
 }
 
 .create {
-  border: 2px solid white;
+  border: 2px solid $white;
   border-radius: 10px;
 }

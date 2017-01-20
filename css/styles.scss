@@ -140,6 +140,21 @@ span {
   background-image: url('#{$path-img}/jeans.jpg');
 }
 
+#imageTen {
+  @extend %image;
+  background-image: url('#{$path-img}/black.jpg');
+}
+
+#imageEleven {
+  @extend %image;
+  background-image: url('#{$path-img}/bikini.jpg');
+}
+
+#imageTwelve {
+  @extend %image;
+  background-image: url('#{$path-img}/red.jpg');
+}
+
 // Mobile Media Query
 @media only screen
 and (max-width: 1200px)

@@ -2427,7 +2427,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .post, hr, .column {
   opacity: .5; }
 
-#imageOne, #imageTwo, #imageThree, #imageFour, #imageFive, #imageSix, #imageSeven, #imageEight, #imageNine {
+#imageOne, #imageTwo, #imageThree, #imageFour, #imageFive, #imageSix, #imageSeven, #imageEight, #imageNine, #imageTen, #imageEleven, #imageTwelve {
   border: 5px solid #FFFFFF;
   background-size: cover;
   background-position: top;
@@ -2464,17 +2464,18 @@ h2 {
     margin: 0 auto;
     padding-top: 1em; }
   .modal .info {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
     margin: 2em;
     padding: 1em; }
 
 .ui.modal {
-  width: 500px;
-  background: #C9C5CB; }
+  background: #C9C5CB;
+  border: 2px solid #000000;
+  width: 500px; }
 
 .create {
-  border: 2px solid white;
+  border: 2px solid #FFFFFF;
   border-radius: 10px; }
 
 header {
@@ -2626,6 +2627,15 @@ span {
 
 #imageNine {
   background-image: url("../img/jeans.jpg"); }
+
+#imageTen {
+  background-image: url("../img/black.jpg"); }
+
+#imageEleven {
+  background-image: url("../img/bikini.jpg"); }
+
+#imageTwelve {
+  background-image: url("../img/red.jpg"); }
 
 @media only screen and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
   .column {

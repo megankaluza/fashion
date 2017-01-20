@@ -75,4 +75,28 @@ $(document).ready(function(){
     })
     .modal('show');
   });
+
+  $('#likeTen').click(function(){
+    $('.ten')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#likeEleven').click(function(){
+    $('.eleven')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#likeTwelve').click(function(){
+    $('.twelve')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
 });
