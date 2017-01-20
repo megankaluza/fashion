@@ -36,7 +36,8 @@ span {
 .exit {
   position: absolute;
   right: 6px;
-  width: 25px;
+  width: 30px;
+  top: 10px;
 }
 
 .grow {
@@ -47,17 +48,13 @@ span {
 }
 
 .heart {
-  margin-top: 6px;
-  margin-left: 6px;
+  display: block;
+  margin: 0 auto;
   width: 20px;
 }
 
 .image {
   width: 300px;
-}
-
-.ui.modal {
-  width: 500px;
 }
 
 .post {

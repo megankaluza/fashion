@@ -2469,6 +2469,14 @@ h2 {
     margin: 2em;
     padding: 1em; }
 
+.ui.modal {
+  width: 500px;
+  background: #C9C5CB; }
+
+.create {
+  border: 2px solid white;
+  border-radius: 10px; }
+
 header {
   background-repeat: no-repeat;
   background-size: cover; }
@@ -2556,7 +2564,8 @@ span {
 .exit {
   position: absolute;
   right: 6px;
-  width: 25px; }
+  width: 30px;
+  top: 10px; }
 
 .grow {
   transition: all .2s ease-in-out; }
@@ -2564,15 +2573,12 @@ span {
     transform: scale(1.1); }
 
 .heart {
-  margin-top: 6px;
-  margin-left: 6px;
+  display: block;
+  margin: 0 auto;
   width: 20px; }
 
 .image {
   width: 300px; }
-
-.ui.modal {
-  width: 500px; }
 
 .post {
   display: none; }
