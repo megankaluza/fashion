@@ -7,6 +7,11 @@ $(document).ready(function(){
     .modal('show');
   });
 
+  $('.exit').click(function(){
+    $('.modal').modal('hide');
+    console.log('hi');
+  });
+
   $('#likeTwo').click(function(){
     $('.two')
     .modal({
