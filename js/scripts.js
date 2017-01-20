@@ -99,4 +99,28 @@ $(document).ready(function(){
     })
     .modal('show');
   });
+
+  $('#likeThirteen').click(function(){
+    $('.thirteen')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#likeFourteen').click(function(){
+    $('.fourteen')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#likeFifteen').click(function(){
+    $('.fifteen')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
 });

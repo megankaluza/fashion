@@ -70,10 +70,10 @@ span {
 }
 
 .column {
-  @extend %opacity;
+  // @extend %opacity;
   width: 200px;
   border: 5px solid $white;
-  background: $lilac;
+  background: $black;
   flex: .2;
 }
 
@@ -147,12 +147,27 @@ span {
 
 #imageEleven {
   @extend %image;
-  background-image: url('#{$path-img}/bikini.jpg');
+  background-image: url('#{$path-img}/eyeliner.jpg');
 }
 
 #imageTwelve {
   @extend %image;
   background-image: url('#{$path-img}/red.jpg');
+}
+
+#imageThirteen {
+  @extend %image;
+  background-image: url('#{$path-img}/face.png');
+}
+
+#imageFourteen {
+  @extend %image;
+  background-image: url('#{$path-img}/vintage.jpg');
+}
+
+#imageFifteen {
+  @extend %image;
+  background-image: url('#{$path-img}/hat.jpg');
 }
 
 // Mobile Media Query

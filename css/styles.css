@@ -2424,10 +2424,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #header-title, #footer-title, .post {
   text-align: center; }
 
-.post, hr, .column {
+.post, hr {
   opacity: .5; }
 
-#imageOne, #imageTwo, #imageThree, #imageFour, #imageFive, #imageSix, #imageSeven, #imageEight, #imageNine, #imageTen, #imageEleven, #imageTwelve {
+#imageOne, #imageTwo, #imageThree, #imageFour, #imageFive, #imageSix, #imageSeven, #imageEight, #imageNine, #imageTen, #imageEleven, #imageTwelve, #imageThirteen, #imageFourteen, #imageFifteen {
   border: 5px solid #FFFFFF;
   background-size: cover;
   background-position: top;
@@ -2587,7 +2587,7 @@ span {
 .column {
   width: 200px;
   border: 5px solid #FFFFFF;
-  background: #AE8CA3;
+  background: #000000;
   flex: .2; }
 
 .mainColumn {
@@ -2632,10 +2632,19 @@ span {
   background-image: url("../img/black.jpg"); }
 
 #imageEleven {
-  background-image: url("../img/bikini.jpg"); }
+  background-image: url("../img/eyeliner.jpg"); }
 
 #imageTwelve {
   background-image: url("../img/red.jpg"); }
+
+#imageThirteen {
+  background-image: url("../img/face.png"); }
+
+#imageFourteen {
+  background-image: url("../img/vintage.jpg"); }
+
+#imageFifteen {
+  background-image: url("../img/hat.jpg"); }
 
 @media only screen and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
   .column {
