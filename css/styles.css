@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Anton|Molle:400i");
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
 html {
   box-sizing: border-box; }
 
@@ -2424,7 +2426,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #header-title, #footer-title, .post {
   text-align: center; }
 
-.post, hr {
+.post, hr, .column {
   opacity: .5; }
 
 #imageOne, #imageTwo, #imageThree, #imageFour, #imageFive, #imageSix, #imageSeven, #imageEight, #imageNine, #imageTen, #imageEleven, #imageTwelve, #imageThirteen, #imageFourteen, #imageFifteen {
@@ -2443,7 +2445,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border-radius: 1em; }
 
 header {
-  font-family: "Molle", cursive;
+  font-family: "Comfortaa", cursive;
   background: #FFFFFF;
   opacity: .5;
   height: 51px;
@@ -2464,18 +2466,18 @@ h2 {
     margin: 0 auto;
     padding-top: 1em; }
   .modal .info {
+    background: #D7D9D7;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     margin: 2em;
     padding: 1em; }
 
 .ui.modal {
-  background: #C9C5CB;
   border: 2px solid #000000;
   width: 500px; }
 
 .create {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #000000;
   border-radius: 10px; }
 
 header {
@@ -2484,7 +2486,8 @@ header {
 
 h1 {
   -webkit-animation: pulsate 3 1.5s 0s none;
-  animation: pulsate 3 1.5s 0s none; }
+  animation: pulsate 3 1.5s 0s none;
+  margin-top: 8px; }
 
 .flex-container {
   width: 979px;
@@ -2543,14 +2546,15 @@ a:link {
   text-shadow: 10px 2px 10px #BBC8CA; }
 
 h2 {
-  color: #FFFFFF;
   position: relative;
-  top: 700px;
-  font-family: "Anton", sans-serif;
-  font-size: 10em; }
+  top: 1000px; }
 
 hr {
   border: 1px solid #AE8CA3; }
+
+p {
+  font-family: "Comfortaa", cursive;
+  text-align: center; }
 
 span {
   color: #AE8CA3; }
@@ -2586,8 +2590,8 @@ span {
 
 .column {
   width: 200px;
-  border: 5px solid #FFFFFF;
-  background: #000000;
+  border-right: 2px solid #000000;
+  background: #D7D9D7;
   flex: .2; }
 
 .mainColumn {

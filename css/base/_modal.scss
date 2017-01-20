@@ -6,6 +6,7 @@
     padding-top: 1em;
   }
   .info {
+    background: $timberwolf;
     border-top: 1px solid $black;
     border-bottom: 1px solid $black;
     margin: 2em;
@@ -14,12 +15,12 @@
 }
 
 .ui.modal {
-  background: $lavenderGray;
+  // background: $lavenderGray;
   border: 2px solid $black;
   width: 500px;
 }
 
 .create {
-  border: 2px solid $white;
+  border: 2px solid $black;
   border-radius: 10px;
 }

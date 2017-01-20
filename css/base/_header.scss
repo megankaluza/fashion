@@ -8,6 +8,7 @@ header {
 
 h1 {
     @include pulsate();
+    margin-top: 8px;
 }
 
 .flex-container {

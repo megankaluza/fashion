@@ -1,5 +1,7 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Anton|Molle:400i');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 // Libraries
 @import "libraries/neat/neat";
 @import "libraries/bourbon/bourbon";
@@ -9,16 +11,21 @@
 
 h2 {
   @extend %rotate;
-  color: $white;
+  // color: $white;
   position: relative;
-  top: 700px;
-  font-family: $stack-anton;
-  font-size: 10em;
+  top: 1000px;
+  // font-family: $stack-anton;
+  // font-size: 10em;
 }
 
 hr {
   @extend %opacity;
   border: 1px solid $lilac;
+}
+
+p {
+  font-family: $stack-comfortaa;
+  text-align: center;
 }
 
 span {
@@ -70,10 +77,10 @@ span {
 }
 
 .column {
-  // @extend %opacity;
+  @extend %opacity;
   width: 200px;
-  border: 5px solid $white;
-  background: $black;
+  border-right: 2px solid $black;
+  background: $timberwolf;
   flex: .2;
 }
 
