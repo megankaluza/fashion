@@ -34,7 +34,6 @@ span {
 }
 
 .exit {
-  // margin-bottom: 10px;
   position: absolute;
   right: 6px;
   width: 25px;
@@ -53,12 +52,19 @@ span {
   width: 20px;
 }
 
+.image {
+  width: 300px;
+}
+
+.ui.modal {
+  width: 500px;
+}
+
 .post {
   @extend %text;
   @extend %centered;
   display: none;
 }
-
 
 // Columns
 
