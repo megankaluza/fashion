@@ -129,12 +129,12 @@ span {
 
 #imageSix {
   @extend %image;
-  background-image: url('#{$path-img}/glasses.jpg');
+  background-image: url('#{$path-img}/mask.jpg');
 }
 
 #imageSeven {
   @extend %image;
-  background-image: url('#{$path-img}/backpack.jpg');
+  background-image: url('#{$path-img}/eyelashes.jpg');
 }
 
 #imageEight {
@@ -144,12 +144,12 @@ span {
 
 #imageNine {
   @extend %image;
-  background-image: url('#{$path-img}/jeans.jpg');
+  background-image: url('#{$path-img}/leather.jpg');
 }
 
 #imageTen {
   @extend %image;
-  background-image: url('#{$path-img}/black.jpg');
+  background-image: url('#{$path-img}/wild.jpg');
 }
 
 #imageEleven {
@@ -159,12 +159,12 @@ span {
 
 #imageTwelve {
   @extend %image;
-  background-image: url('#{$path-img}/red.jpg');
+  background-image: url('#{$path-img}/black.jpg');
 }
 
 #imageThirteen {
   @extend %image;
-  background-image: url('#{$path-img}/face.png');
+  background-image: url('#{$path-img}/twins.jpg');
 }
 
 #imageFourteen {
@@ -174,7 +174,7 @@ span {
 
 #imageFifteen {
   @extend %image;
-  background-image: url('#{$path-img}/hat.jpg');
+  background-image: url('#{$path-img}/piercing.jpg');
 }
 
 // Mobile Media Query
