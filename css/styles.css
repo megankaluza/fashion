@@ -2650,7 +2650,7 @@ span {
 #imageFifteen {
   background-image: url("../img/piercing.jpg"); }
 
-@media only screen and (max-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (max-width: 1200px) {
   .column {
     display: none; } }
 

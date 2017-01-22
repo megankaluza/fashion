@@ -179,8 +179,7 @@ span {
 
 // Mobile Media Query
 @media only screen
-and (max-width: 1200px)
-and (-webkit-min-device-pixel-ratio: 1) {
+and (max-width: 1200px) {
   .column {
     display: none;
   }
