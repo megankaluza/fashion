@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Molle:400i');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Barrio|Lora');
 // Libraries
 @import "libraries/neat/neat";
 @import "libraries/bourbon/bourbon";
@@ -24,7 +25,9 @@ hr {
 }
 
 p {
-  font-family: $stack-comfortaa;
+  // font-family: $stack-comfortaa;
+  font-family: 'Lora', serif;
+  // font-size: 1em;
   text-align: center;
 }
 
@@ -182,5 +185,26 @@ span {
 and (max-width: 1200px) {
   .column {
     display: none;
+  }
+}
+
+@media only screen
+and (max-width: 667px) {
+  .column {
+    display: none;
+  }
+
+  .wrapper {
+    display: table;
+    // width: 375px;
+    // height: 667px;
+    margin: 0 auto;
+  }
+
+  .container {
+    display: table;
+    margin-top: 0;
+    width: 375px;
+    height: 667px;
   }
 }
