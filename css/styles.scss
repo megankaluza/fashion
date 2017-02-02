@@ -90,10 +90,6 @@ span {
   flex: 2;
 }
 
-#open {
-  width: 2em;
-}
-
 // Gallery
 
 .box {
@@ -190,7 +186,6 @@ and (max-width: 1200px) {
     display: none;
   }
 }
-
 
 @media only screen
 and (max-width: 667px) {
