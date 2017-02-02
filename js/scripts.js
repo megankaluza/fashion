@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  //Open Modal//
   $('#like').click(function(){
     $('.one')
     .modal({
@@ -6,10 +7,14 @@ $(document).ready(function(){
     })
     .modal('show');
   });
-
+  //Exit Modal//
   $('.exit').click(function(){
     $('.modal').modal('hide');
-    console.log('hi');
+  });
+  //Open Navigation//
+  $('#open').click(function(){
+    $('.ui.sidebar')
+    .sidebar('toggle');
   });
 
   $('#likeTwo').click(function(){
