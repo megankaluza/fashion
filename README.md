@@ -11,7 +11,7 @@
 ![screenshot](img/screen_shot.png)
 
 # _Live_
-![screenshot](img/live.png)
+![screenshot](img/live2.png)
 
 ## Description
 
@@ -25,15 +25,18 @@ _Objectives_
 
 * _Check out the GitHub Pages: https://megankaluza.github.io/fashion_
 * _Clone this repository https://github.com/megankaluza/https://github.com/megankaluza/fashion.git_
+
 * _gem install sass_
+* _sass --watch ._
+
 * _gem install bourbon_
 * _gem install neat_
 * _gem install saffron_
-* _sass --watch ._
 
 * _npm install semantic-ui_
 * _brew install node_
 * _npm install -g gulp_
+
 * _gulp build_
 * _gulp watch_
 
