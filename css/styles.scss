@@ -10,13 +10,14 @@
 // Sass Components
 @import "base/index";
 
+html, body {
+  height: 100%;
+}
+
 h2 {
   @extend %rotate;
-  // color: $white;
   position: relative;
   top: 1000px;
-  // font-family: $stack-anton;
-  // font-size: 10em;
 }
 
 hr {
@@ -25,9 +26,7 @@ hr {
 }
 
 p {
-  // font-family: $stack-comfortaa;
   font-family: 'Lora', serif;
-  // font-size: 1em;
   text-align: center;
 }
 
@@ -94,7 +93,7 @@ span {
 // Gallery
 
 .box {
-  width: 200px;
+  width: 25%;
   height: 500px;
   flex-grow: 1;
 }
@@ -189,22 +188,29 @@ and (max-width: 1200px) {
 }
 
 @media only screen
-and (max-width: 667px) {
-  .column {
-    display: none;
+and (max-width: 1024px) {
+  .gallery .box {
+    width: 50%;
+    height: 900px;
+    background-size: contain;
   }
 
   .wrapper {
     display: table;
-    // width: 375px;
-    // height: 667px;
     margin: 0 auto;
   }
+}
 
-  .container {
+@media only screen
+and (max-width: 667px) {
+  .gallery .box {
+    width: 100%;
+    height: 900px;
+    background-size: contain;
+  }
+
+  .wrapper {
     display: table;
-    margin-top: 0;
-    width: 375px;
-    height: 667px;
+    margin: 0 auto;
   }
 }
