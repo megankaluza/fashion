@@ -14,6 +14,12 @@ html, body {
   height: 100%;
 }
 
+// body {
+//   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/blurry-blue.jpg);
+//   background-size: cover;
+//   padding: 30px;
+// }
+
 h2 {
   @extend %rotate;
   position: relative;
@@ -105,17 +111,17 @@ span {
 
 #imageOne {
   @extend %image;
-  background-image: url('#{$path-img}/eyes.jpg');
+  background-image: url('#{$path-img}/hex.jpg');
 }
 
 #imageTwo {
   @extend %image;
-  background-image: url('#{$path-img}/light.jpg');
+  background-image: url('#{$path-img}/eyelashes.jpg');
 }
 
 #imageThree {
   @extend %image;
-  background-image: url('#{$path-img}/color.jpg');
+  background-image: url('#{$path-img}/cat-eyes.jpg');
 }
 
 #imageFour {
@@ -136,7 +142,7 @@ span {
 
 #imageSeven {
   @extend %image;
-  background-image: url('#{$path-img}/eyelashes.jpg');
+  background-image: url('#{$path-img}/dress.jpg');
 }
 
 #imageEight {

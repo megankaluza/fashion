@@ -11,7 +11,7 @@
 ![screenshot](img/screen_shot.png)
 
 # _Live_
-![screenshot](img/live2.png)
+![screenshot](img/live3.png)
 
 ## Description
 

@@ -2555,6 +2555,20 @@ a:link {
   font-size: 2em;
   text-shadow: 10px 2px 10px #BBC8CA; }
 
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards; }
+
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s; }
+
+.already-visible {
+  transform: translateY(0);
+  animation: none; }
+
+@keyframes come-in {
+  to {
+    transform: translateY(0); } }
 html, body {
   height: 100%; }
 
@@ -2619,13 +2633,13 @@ span {
   flex-wrap: wrap; }
 
 #imageOne {
-  background-image: url("../img/eyes.jpg"); }
+  background-image: url("../img/hex.jpg"); }
 
 #imageTwo {
-  background-image: url("../img/light.jpg"); }
+  background-image: url("../img/eyelashes.jpg"); }
 
 #imageThree {
-  background-image: url("../img/color.jpg"); }
+  background-image: url("../img/cat-eyes.jpg"); }
 
 #imageFour {
   background-image: url("../img/skeleton.png"); }
@@ -2637,7 +2651,7 @@ span {
   background-image: url("../img/mask.jpg"); }
 
 #imageSeven {
-  background-image: url("../img/eyelashes.jpg"); }
+  background-image: url("../img/dress.jpg"); }
 
 #imageEight {
   background-image: url("../img/bun.jpg"); }
