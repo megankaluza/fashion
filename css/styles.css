@@ -2430,7 +2430,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .post, hr, .column {
   opacity: .5; }
 
-#imageOne, #imageTwo, #imageThree, #imageFour, #imageFive, #imageSix, #imageSeven, #imageEight, #imageNine, #imageTen, #imageEleven, #imageTwelve, #imageThirteen, #imageFourteen, #imageFifteen {
+#imageOne, #imageTwo, #imageThree, #imageFour, #imageFive, #imageSix, #imageSeven, #imageEight, #imageNine, #imageTen, #imageEleven, #imageTwelve, #imageThirteen, #imageFourteen, #imageFifteen, #imageSixteen, #imageSeventeen, #imageEighteen, #imageNineteen, #imageTwenty, #imageTwentyOne {
   border: 5px solid #FFFFFF;
   background-size: cover;
   background-position: top;
@@ -2676,6 +2676,24 @@ span {
 
 #imageFifteen {
   background-image: url("../img/piercing.jpg"); }
+
+#imageSixteen {
+  background-image: url("../img/back.jpg"); }
+
+#imageSeventeen {
+  background-image: url("../img/crown.jpg"); }
+
+#imageEighteen {
+  background-image: url("../img/back3.jpg"); }
+
+#imageNineteen {
+  background-image: url("../img/stand-tall.jpg"); }
+
+#imageTwenty {
+  background-image: url("../img/gloves.jpg"); }
+
+#imageTwentyOne {
+  background-image: url("../img/smoke.jpg"); }
 
 @media only screen and (max-width: 1200px) {
   .column {

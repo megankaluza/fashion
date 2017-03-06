@@ -185,6 +185,36 @@ span {
   background-image: url('#{$path-img}/piercing.jpg');
 }
 
+#imageSixteen {
+  @extend %image;
+  background-image: url('#{$path-img}/back.jpg');
+}
+
+#imageSeventeen {
+  @extend %image;
+  background-image: url('#{$path-img}/crown.jpg');
+}
+
+#imageEighteen {
+  @extend %image;
+  background-image: url('#{$path-img}/back3.jpg');
+}
+
+#imageNineteen {
+  @extend %image;
+  background-image: url('#{$path-img}/stand-tall.jpg');
+}
+
+#imageTwenty {
+  @extend %image;
+  background-image: url('#{$path-img}/gloves.jpg');
+}
+
+#imageTwentyOne {
+  @extend %image;
+  background-image: url('#{$path-img}/smoke.jpg');
+}
+
 // Mobile Media Query
 @media only screen
 and (max-width: 1200px) {

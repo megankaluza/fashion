@@ -1,5 +1,5 @@
 $(document).ready(function(){
-//Scroll Animation//
+  //Scroll Animation//
   (function($) {
 
     /**
@@ -50,7 +50,7 @@ $(document).ready(function(){
       }
     });
   });
-  
+
   //Open Modal//
   $('#like').click(function(){
     $('.one')
@@ -175,6 +175,54 @@ $(document).ready(function(){
 
   $('#likeFifteen').click(function(){
     $('.fifteen')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#likeSixteen').click(function(){
+    $('.sixteen')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#likeSeventeen').click(function(){
+    $('.seventeen')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#likeEighteen').click(function(){
+    $('.eighteen')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#likeNineteen').click(function(){
+    $('.nineteen')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#likeTwenty').click(function(){
+    $('.twenty')
+    .modal({
+      blurring: true
+    })
+    .modal('show');
+  });
+
+  $('#likeTwentyOne').click(function(){
+    $('.twentyOne')
     .modal({
       blurring: true
     })
