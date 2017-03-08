@@ -32,7 +32,7 @@ hr {
 }
 
 p {
-  font-family: 'Lora', serif;
+  font-family: $stack-lora;
   text-align: center;
 }
 
@@ -49,10 +49,13 @@ span {
 }
 
 .exit {
-  position: absolute;
-  right: 6px;
-  width: 30px;
-  top: 10px;
+  // position: absolute;
+  // right: 6px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  width: 70px;
+  // top: 10px;
 }
 
 .grow {

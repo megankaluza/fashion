@@ -2580,7 +2580,7 @@ hr {
   border: 1px solid #AE8CA3; }
 
 p {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   text-align: center; }
 
 span {
@@ -2594,10 +2594,10 @@ span {
   -ms-filter: blur(5px); }
 
 .exit {
-  position: absolute;
-  right: 6px;
-  width: 30px;
-  top: 10px; }
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  width: 70px; }
 
 .grow {
   transition: all .2s ease-in-out; }
