@@ -2474,6 +2474,7 @@ h2 {
 
 .ui.modal {
   border: 2px solid #000000;
+  opacity: 0.8;
   width: 50%; }
 
 .create {
