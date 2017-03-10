@@ -8,7 +8,7 @@
 ![screenshot](img/inspiration.png)
 
 # _Sketch MockUp_
-![screenshot](img/new.png)
+![screenshot](img/responsive.png)
 
 # _Live_
 ![screenshot](img/live3.png)
