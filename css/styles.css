@@ -2467,7 +2467,9 @@ h2 {
 
 .create {
   border: 2px solid #000000;
-  border-radius: 10px; }
+  border-radius: 10px;
+  width: 100%;
+  height: 100%; }
 
 .item {
   font-family: "Lora", serif;
@@ -2563,6 +2565,9 @@ a:link {
 html, body {
   height: 100%; }
 
+h1 {
+  text-align: center; }
+
 h2 {
   position: relative;
   top: 1000px; }
@@ -2627,19 +2632,19 @@ p {
   background-image: url("../img/skeleton.png"); }
 
 #imageFive {
-  background-image: url("../img/kate.jpg"); }
+  background-image: url("../img/scarf.jpg"); }
 
 #imageSix {
-  background-image: url("../img/mask.jpg"); }
+  background-image: url("../img/big-hair.jpg"); }
 
 #imageSeven {
   background-image: url("../img/dress.jpg"); }
 
 #imageEight {
-  background-image: url("../img/bun.jpg"); }
+  background-image: url("../img/stairs.jpg"); }
 
 #imageNine {
-  background-image: url("../img/leather.jpg"); }
+  background-image: url("../img/wings.jpg"); }
 
 #imageTen {
   background-image: url("../img/wild.jpg"); }
@@ -2663,7 +2668,7 @@ p {
   background-image: url("../img/back.jpg"); }
 
 #imageSeventeen {
-  background-image: url("../img/crown.jpg"); }
+  background-image: url("../img/lipgloss.jpg"); }
 
 #imageEighteen {
   background-image: url("../img/back3.jpg"); }
@@ -2675,7 +2680,7 @@ p {
   background-image: url("../img/gloves.jpg"); }
 
 #imageTwentyOne {
-  background-image: url("../img/smoke.jpg"); }
+  background-image: url("../img/make-up.jpg"); }
 
 @media only screen and (max-width: 1200px) {
   .column {

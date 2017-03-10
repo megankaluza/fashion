@@ -11,6 +11,10 @@ html, body {
   height: 100%;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   @extend %rotate;
   position: relative;
@@ -108,12 +112,12 @@ p {
 
 #imageFive {
   @extend %image;
-  background-image: url('#{$path-img}/kate.jpg');
+  background-image: url('#{$path-img}/scarf.jpg');
 }
 
 #imageSix {
   @extend %image;
-  background-image: url('#{$path-img}/mask.jpg');
+  background-image: url('#{$path-img}/big-hair.jpg');
 }
 
 #imageSeven {
@@ -123,12 +127,12 @@ p {
 
 #imageEight {
   @extend %image;
-  background-image: url('#{$path-img}/bun.jpg');
+  background-image: url('#{$path-img}/stairs.jpg');
 }
 
 #imageNine {
   @extend %image;
-  background-image: url('#{$path-img}/leather.jpg');
+  background-image: url('#{$path-img}/wings.jpg');
 }
 
 #imageTen {
@@ -168,7 +172,7 @@ p {
 
 #imageSeventeen {
   @extend %image;
-  background-image: url('#{$path-img}/crown.jpg');
+  background-image: url('#{$path-img}/lipgloss.jpg');
 }
 
 #imageEighteen {
@@ -188,7 +192,7 @@ p {
 
 #imageTwentyOne {
   @extend %image;
-  background-image: url('#{$path-img}/smoke.jpg');
+  background-image: url('#{$path-img}/make-up.jpg');
 }
 
 // Mobile Media Query
