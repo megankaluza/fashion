@@ -54,9 +54,9 @@ $(document).ready(function(){
   //Open Modal//
   $('#like').click(function(){
     $('.one')
-    // .modal({
-    //   blurring: true
-    // })
+    .modal({
+      blurring: true
+    })
     .modal('show');
   });
   //Exit Modal//
