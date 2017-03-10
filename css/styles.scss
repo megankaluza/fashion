@@ -112,7 +112,7 @@ p {
 
 #imageFive {
   @extend %image;
-  background-image: url('#{$path-img}/scarf.jpg');
+  background-image: url('#{$path-img}/butterfly.jpg');
 }
 
 #imageSix {
@@ -147,22 +147,22 @@ p {
 
 #imageTwelve {
   @extend %image;
-  background-image: url('#{$path-img}/black.jpg');
+  background-image: url('#{$path-img}/jewelry.jpg');
 }
 
 #imageThirteen {
   @extend %image;
-  background-image: url('#{$path-img}/twins.jpg');
+  background-image: url('#{$path-img}/twins.png');
 }
 
 #imageFourteen {
   @extend %image;
-  background-image: url('#{$path-img}/vintage.jpg');
+  background-image: url('#{$path-img}/fluff.jpg');
 }
 
 #imageFifteen {
   @extend %image;
-  background-image: url('#{$path-img}/piercing.jpg');
+  background-image: url('#{$path-img}/tatts.jpg');
 }
 
 #imageSixteen {
@@ -192,7 +192,7 @@ p {
 
 #imageTwentyOne {
   @extend %image;
-  background-image: url('#{$path-img}/make-up.jpg');
+  background-image: url('#{$path-img}/taped.jpg');
 }
 
 // Mobile Media Query

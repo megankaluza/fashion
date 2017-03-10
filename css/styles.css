@@ -2632,7 +2632,7 @@ p {
   background-image: url("../img/skeleton.png"); }
 
 #imageFive {
-  background-image: url("../img/scarf.jpg"); }
+  background-image: url("../img/butterfly.jpg"); }
 
 #imageSix {
   background-image: url("../img/big-hair.jpg"); }
@@ -2653,16 +2653,16 @@ p {
   background-image: url("../img/eyeliner.jpg"); }
 
 #imageTwelve {
-  background-image: url("../img/black.jpg"); }
+  background-image: url("../img/jewelry.jpg"); }
 
 #imageThirteen {
-  background-image: url("../img/twins.jpg"); }
+  background-image: url("../img/twins.png"); }
 
 #imageFourteen {
-  background-image: url("../img/vintage.jpg"); }
+  background-image: url("../img/fluff.jpg"); }
 
 #imageFifteen {
-  background-image: url("../img/piercing.jpg"); }
+  background-image: url("../img/tatts.jpg"); }
 
 #imageSixteen {
   background-image: url("../img/back.jpg"); }
@@ -2680,7 +2680,7 @@ p {
   background-image: url("../img/gloves.jpg"); }
 
 #imageTwentyOne {
-  background-image: url("../img/make-up.jpg"); }
+  background-image: url("../img/taped.jpg"); }
 
 @media only screen and (max-width: 1200px) {
   .column {
