@@ -1,7 +1,4 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Anton|Molle:400i');
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 @import url('https://fonts.googleapis.com/css?family=Barrio|Lora');
 // Libraries
 @import "libraries/neat/neat";
@@ -14,12 +11,6 @@ html, body {
   height: 100%;
 }
 
-// body {
-//   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/blurry-blue.jpg);
-//   background-size: cover;
-//   padding: 30px;
-// }
-
 h2 {
   @extend %rotate;
   position: relative;
@@ -28,16 +19,11 @@ h2 {
 
 hr {
   @extend %opacity;
-  border: 1px solid $lilac;
 }
 
 p {
   font-family: $stack-lora;
   text-align: center;
-}
-
-span {
-  color: $lilac;
 }
 
 .blur  {
@@ -49,13 +35,10 @@ span {
 }
 
 .exit {
-  // position: absolute;
-  // right: 6px;
   display: block;
   margin: 0 auto;
   margin-top: 1em;
   width: 70px;
-  // top: 10px;
 }
 
 .grow {
@@ -75,23 +58,15 @@ span {
   width: 300px;
 }
 
-.post {
-  @extend %text;
-  @extend %centered;
-  display: none;
-}
-
 // Columns
-
 .columns {
   @extend %flex;
 }
 
 .column {
-  @extend %opacity;
   width: 200px;
   border-right: 2px solid $black;
-  background: $timberwolf;
+  background: $blush;
   flex: .2;
 }
 
@@ -100,7 +75,6 @@ span {
 }
 
 // Gallery
-
 .box {
   width: 25%;
   height: 500px;
@@ -134,7 +108,6 @@ span {
 
 #imageFive {
   @extend %image;
-  // @extend %hover;
   background-image: url('#{$path-img}/kate.jpg');
 }
 

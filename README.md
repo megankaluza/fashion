@@ -1,4 +1,4 @@
-# _Aesthetic Fashion Blog_
+# _Aesthetic Inspiration_
 
 #### _Epicodus: Capstone Final Project 12-22-16_
 
@@ -8,7 +8,7 @@
 ![screenshot](img/inspiration.png)
 
 # _Sketch MockUp_
-![screenshot](img/screen_shot.png)
+![screenshot](img/new.png)
 
 # _Live_
 ![screenshot](img/live3.png)
