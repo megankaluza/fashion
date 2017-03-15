@@ -14,7 +14,7 @@ html, body {
 
 h1 {
   text-align: center;
-  font-family: 'Cinzel', serif;
+  font-family: $stack-cinzel;
 }
 
 h2 {
@@ -31,14 +31,6 @@ p {
   font-family: $stack-lora;
   text-align: center;
 }
-
-// .blur  {
-//   filter: blur(5px);
-//   -webkit-filter: blur(5px);
-//   -moz-filter: blur(5px);
-//   -o-filter: blur(5px);
-//   -ms-filter: blur(5px);
-// }
 
 .exit {
   display: block;
@@ -94,134 +86,127 @@ p {
 }
 
 #imageOne {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/hex.jpg');
 }
 
 #imageTwo {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/eyelashes.jpg');
 }
 
 #imageThree {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/cat-eyes.jpg');
 }
 
 #imageFour {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/skeleton.png');
 }
 
 #imageFive {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/butterfly.jpg');
 }
 
 #imageSix {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/big-hair.jpg');
 }
 
 #imageSeven {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/dress.jpg');
 }
 
 #imageEight {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/stairs.jpg');
 }
 
 #imageNine {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/wings.jpg');
 }
 
 #imageTen {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/wild.jpg');
 }
 
 #imageEleven {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/eyeliner.jpg');
 }
 
 #imageTwelve {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/jewelry.jpg');
 }
 
 #imageThirteen {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/twins.png');
 }
 
 #imageFourteen {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/fluff.jpg');
 }
 
 #imageFifteen {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/tatts.jpg');
 }
 
 #imageSixteen {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/back.jpg');
 }
 
 #imageSeventeen {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/lipgloss.jpg');
 }
 
 #imageEighteen {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/back3.jpg');
 }
 
 #imageNineteen {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/stand-tall.jpg');
 }
 
 #imageTwenty {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/gloves.jpg');
 }
 
 #imageTwentyOne {
+  @extend %align;
   @extend %image;
   background-image: url('#{$path-img}/taped.jpg');
-}
-
-// Mobile Media Query
-@media only screen
-and (max-width: 1200px) {
-  .column {
-    display: none;
-  }
-}
-
-@media only screen
-and (max-width: 667px) {
-  .gallery .box {
-    width: 100%;
-    height: 500px;
-    background-size: contain;
-  }
-
-  .wrapper {
-    display: table;
-    margin: 0 auto;
-  }
-
-  //Modal//
-  .ui.modal {
-    border: 2px solid $black;
-    width: 100%;
-  }
 }

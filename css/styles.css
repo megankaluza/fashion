@@ -2419,7 +2419,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   box-sizing: border-box; }
 
-.flex-container, .flex-container ul, .columns, .gallery {
+#imageOne, #imageTwo, #imageThree, #imageFour, #imageFive, #imageSix, #imageSeven, #imageEight, #imageNine, #imageTen, #imageEleven, #imageTwelve, #imageThirteen, #imageFourteen, #imageFifteen, #imageSixteen, #imageSeventeen, #imageEighteen, #imageNineteen, #imageTwenty, #imageTwentyOne, .flex-container, .flex-container ul, .columns, .gallery {
   display: flex; }
 
 #header-title, #footer-title {
@@ -2448,6 +2448,10 @@ h2 {
   -o-transform: rotate(-90deg);
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
+
+#imageOne, #imageTwo, #imageThree, #imageFour, #imageFive, #imageSix, #imageSeven, #imageEight, #imageNine, #imageTen, #imageEleven, #imageTwelve, #imageThirteen, #imageFourteen, #imageFifteen, #imageSixteen, #imageSeventeen, #imageEighteen, #imageNineteen, #imageTwenty, #imageTwentyOne {
+  align-items: flex-start;
+  justify-content: flex-end; }
 
 .modal {
   display: none; }
@@ -2563,12 +2567,28 @@ a:link {
 @keyframes come-in {
   to {
     transform: translateY(0); } }
+@media only screen and (max-width: 1200px) {
+  .column {
+    display: none; } }
+@media only screen and (max-width: 667px) {
+  .gallery .box {
+    width: 100%;
+    height: 500px;
+    background-size: contain; }
+
+  .wrapper {
+    display: table;
+    margin: 0 auto; }
+
+  .ui.modal {
+    border: 2px solid #000000;
+    width: 100%; } }
 html, body {
   height: 100%; }
 
 h1 {
   text-align: center;
-  font-family: 'Cinzel', serif; }
+  font-family: "Cinzel", serif; }
 
 h2 {
   position: relative;
@@ -2677,22 +2697,5 @@ p {
 
 #imageTwentyOne {
   background-image: url("../img/taped.jpg"); }
-
-@media only screen and (max-width: 1200px) {
-  .column {
-    display: none; } }
-@media only screen and (max-width: 667px) {
-  .gallery .box {
-    width: 100%;
-    height: 500px;
-    background-size: contain; }
-
-  .wrapper {
-    display: table;
-    margin: 0 auto; }
-
-  .ui.modal {
-    border: 2px solid #000000;
-    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

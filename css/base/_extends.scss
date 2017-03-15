@@ -61,3 +61,10 @@
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
+
+// Align Flex-End
+%align {
+  @extend %flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
