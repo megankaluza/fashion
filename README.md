@@ -24,7 +24,7 @@ _Objectives_
 ## Setup/Installation Requirements
 
 * _Check out the GitHub Pages: https://megankaluza.github.io/fashion_
-* _Clone this repository https://github.com/megankaluza/https://github.com/megankaluza/fashion.git_
+* _Clone this repository https://github.com/megankaluza/fashion.git_
 
 * _gem install sass_
 * _sass --watch ._
